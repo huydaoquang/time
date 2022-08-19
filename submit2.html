@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form  style="width:550px;height:700px;background-color:#D8FFFA;margin:auto;border-radius:5px;padding:20px;" action="control.php" method="post" >
+        <h1 style="margin-left:150px;padding:50px 0 20px 0;">Đăng ký tài khoản </h1>
+        <div>Họ và tên</div>
+        <input type="text" name="fullname" 
+                style="width:500px;height:30px;border-radius:5px;border:none;">
+        <div style="margin:5px 0px;">Tên đăng nhập</div>
+        <input type="text" name="username" 
+                style="width:500px;height:30px;border-radius:5px;border:none;">
+        <div style="margin:5px 0px;">Mật khẩu</div>
+        <input type="password" name="password" 
+                style="width:500px;height:30px;border-radius:5px;border:none;">
+        <div style="margin:5px 0px;">Email</div>
+        <input type="email" name="email" 
+                style="width:500px;height:30px;border-radius:5px;border:none;">
+        <div style="margin:5px 0px;">Giới tính </div><br>
+        <input type="radio" name="gender"               
+             value="male">Nam
+        <input type="radio" name="gender" 
+                style="margin-left:10px;" value="female">Nữ
+        <div style="padding-bottom:5px;">Địa chỉ </div>
+        <input type="text" name="address" 
+                style="width:500px;height:30px;border-radius:5px;border:none;">
+        <input type="submit" name="btn-control" value="Đăng ký" 
+                style="width:500px;height:40px;border:none;background-color:#FF3109;;border-radius:5px;">
+
+
+    </from>
+    <style>
+        input [type=text], select{
+            margin:8px 0px;
+            width:100%;
+        }
+    </style>
+</body>
+</html>
